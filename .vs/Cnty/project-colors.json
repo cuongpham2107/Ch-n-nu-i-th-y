@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4c76ad13-cb99-4e5b-808d-22fb44196212": {
+      "ProjectGuid": "4c76ad13-cb99-4e5b-808d-22fb44196212",
+      "DisplayName": "Cnty.Blazor.Server",
+      "ColorIndex": 0
+    },
+    "ca34ad80-2550-4f89-acd7-ac11f4676a5f": {
+      "ProjectGuid": "ca34ad80-2550-4f89-acd7-ac11f4676a5f",
+      "DisplayName": "Cnty.Module",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

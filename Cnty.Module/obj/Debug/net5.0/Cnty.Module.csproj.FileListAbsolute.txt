@@ -1,0 +1,14 @@
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.csproj.AssemblyReference.cache
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.AssemblyInfoInputs.cache
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.AssemblyInfo.cs
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.csproj.CoreCompileInputs.cache
+D:\Code\Cnty\Cnty.Module\bin\Debug\net5.0\Cnty.Module.deps.json
+D:\Code\Cnty\Cnty.Module\bin\Debug\net5.0\Cnty.Module.dll
+D:\Code\Cnty\Cnty.Module\bin\Debug\net5.0\ref\Cnty.Module.dll
+D:\Code\Cnty\Cnty.Module\bin\Debug\net5.0\Cnty.Module.pdb
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.dll
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\ref\Cnty.Module.dll
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\Cnty.Module.pdb
+D:\Code\Cnty\Cnty.Module\bin\Debug\net5.0\vi\Cnty.Module.resources.dll
+D:\Code\Cnty\Cnty.Module\obj\Debug\net5.0\vi\Cnty.Module.resources.dll

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application PreferredLanguage="vi">
+  <NavigationItems>
+    <Items>
+      <Item Id="Danh mục dữ liệu về chăn nuôi" Index="0">
+        <Items>
+          <Item Id="LoaiVatNuoi_ListView" Index="0" />
+          <Item Id="Giong_ListView" Index="1" />
+          <Item Id="NguonGenGiongVatNuoi_ListView" Index="2" />
+          <Item Id="ThucAnChanNuoi_ListView" Index="3" />
+          <Item Id="DanhMucNguyenLieu_ListView" Index="4" />
+          <Item Id="SanPhamXuLyChatThaiChanNuoi_ListView" Index="5" />
+          <Item Id="SanPhamChanNuoi_ListView" Index="6" />
+          <Item Id="CongNgheDuocApDung_ListView" Index="7" />
+          <Item Id="BenhDich_ListView" Index="8" />
+          <Item Id="CoQuanQuanLy_ListView" Index="9" />
+          <Item Id="CosoSanxuat_ListView" Index="10" />
+          <Item Id="DinhMucKinhTeKyThuat_ListView" Index="11" />
+          <Item Id="DonViTinhSanPhamChanNuoi_ListView" Index="12" />
+          <Item Id="PhepThuThucAnChanNuoi_ListView" Index="13" />
+          <Item Id="PhongThuNghiemTACN_ListView" Index="14" />
+          <Item Id="QuocGia_ListView" Index="15" />
+          <Item Id="MatHangDuocCheBien_ListView" Index="16" />
+        </Items>
+      </Item>
+      <Item Id="Giống vật nuôi" Index="1">
+        <Items>
+          <Item Id="SanXuatConGiongVatNuoi_ListView" Index="0" />
+          <Item Id="TinhPhoiAuTrungCoSoApTrung_ListView" Index="1" />
+          <Item Id="DichVuThuTinhCayPhoi_ListView" Index="2" />
+          <Item Id="SoHuuLonTrauBoDucGiong_ListView" Index="3" />
+          <Item Id="MuaBanConGiongTinhPhoiTrungAuTrung_ListView" Index="4" />
+        </Items>
+      </Item>
+      <Item Id="Cơ sở chăn nuôi - Chế biến" Index="2">
+        <Items>
+          <Item Id="TCCNCN_GiongVatNuoi_ListView" Index="0" />
+          <Item Id="TCCNCN_DieuKienChanNuoi_ListView" Index="1" />
+          <Item Id="TCCNCN_GiayChungNhan_ListView" Index="2" />
+          <Item Id="CSCB_SanPhamChanNuoi_ListView" Index="3" />
+          <Item Id="CSCB_GiayChungNhanATTP_ListView" Index="4" />
+        </Items>
+      </Item>
+      <Item Id="Thức ăn chăn nuôi" Index="3">
+        <Items>
+          <Item Id="ThucAnChanNuoiNhapKhau_ListView" Index="0" />
+        </Items>
+      </Item>
+      <Item Id="Cơ sở khảo nghiệm - Bảo tồn gen" Index="4">
+        <Items>
+          <Item Id="KhaoNghiemDongGiongVatNuoi_ListView" Index="0" />
+          <Item Id="CoSoKhaoNghiemSanPhamXuLyChatThaiChanNuoi_ListView" Index="1" />
+          <Item Id="ThuThapNguonGen_ListView" Index="2" />
+          <Item Id="BaoTonNguonGenGionVatNuoi_ListView" Index="3" />
+          <Item Id="CoSoKhaoNghiemThucAn_ListView" Index="4" />
+          <Item Id="TCChungNhanTACN_PhamViDuocChiDinh_ListView" Index="5" />
+          <Item Id="PTNTACN_PhepThuDuocChiDinh_ListView" Index="6" />
+        </Items>
+      </Item>
+      <Item Id="Dịch bệnh động vật" Index="5" />
+      <Item Id="Xử lý chất thải chăn nuôi" Index="6" />
+      <Item Id="Thị trường - Giá cả" Index="7" />
+      <Item Id="Reports" Caption="In ấn - xuất dữ liệu" Index="8">
+        <Items>
+          <Item Id="Dashboards" Visible="False" />
+          <Item Id="ReportsV2" Caption="Báo cáo" />
+        </Items>
+      </Item>
+      <Item Id="Default" Caption="Quản trị" Index="9">
+        <Items>
+          <Item Id="ApplicationUser_ListView" Caption="Tài khoản" />
+          <Item Id="KetQuaNghienCuuKhoaHoc_ListView" Visible="False" />
+          <Item Id="MyDetails" Caption="Chi tiết tài khoản" />
+          <Item Id="PermissionPolicyRole_ListView" Caption="Nhóm người dùng" />
+        </Items>
+      </Item>
+      <Item Id="State Machine" Visible="False" Index="10" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="21.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="21.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

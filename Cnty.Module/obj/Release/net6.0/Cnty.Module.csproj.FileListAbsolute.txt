@@ -1,0 +1,14 @@
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\bin\Release\net6.0\Cnty.Module.deps.json
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\bin\Release\net6.0\Cnty.Module.dll
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\bin\Release\net6.0\Cnty.Module.pdb
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\bin\Release\net6.0\vi\Cnty.Module.resources.dll
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.csproj.AssemblyReference.cache
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.AssemblyInfoInputs.cache
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.AssemblyInfo.cs
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.csproj.CoreCompileInputs.cache
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\vi\Cnty.Module.resources.dll
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.dll
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\refint\Cnty.Module.dll
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\Cnty.Module.pdb
+C:\Users\cuong\source\repos\Cnty\Cnty.Module\obj\Release\net6.0\ref\Cnty.Module.dll

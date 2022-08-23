@@ -1,0 +1,212 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .page_home {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: #444;
+    }
+
+    .page_home .top {
+      padding: 2rem 0;
+      text-align: center;
+      background: #38BDF8;
+      color: #fff;
+    }
+
+    .page_home .top h1 {
+      margin-bottom: 1rem;
+      /* color: #F43F5E; */
+    }
+
+    .page_home .top h2 {
+      /* color: #3B82F6; */
+    }
+
+    .page_home .container {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url('./upload/background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      padding: 2rem;
+    }
+
+    .page_home .container::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .content {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      position: relative;
+    }
+
+    .content > :not([hidden]) ~ :not([hidden]) {
+      margin-left: 2rem;
+    }
+
+    .page_link {
+      width: 100%;
+      max-width: 330px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      text-align: center;
+      color: #444;
+      background-color: #fff;
+      height: max-content;
+    }
+
+    .page_link h3 {
+      font-size: 20px;
+      padding: 0 .5rem;
+    }
+
+    .page_link p {
+      font-size: 18px;
+      margin: .5rem 0 1.5rem;
+      padding: 0 .5rem;
+    }
+
+    .page_link .icon {
+      display: grid;
+      place-items: center;
+      padding: 3rem 1rem 2rem;
+      color: #38BDF8;
+    }
+
+    .page_link .icon img {
+      width: 80px;
+    }
+
+    .page_link.red .icon {
+      color: #FB7185;
+    }
+
+    .page_link .icon svg {
+      width: 60px;
+      height: 60px;
+    }
+
+    .page_link .link {
+      display: block;
+      padding: 1rem;
+      color: #fff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      background: linear-gradient(90deg, #38BDF8, #0EA5E9);
+    }
+
+    .page_link.red .link {
+      background: linear-gradient(90deg, #FB7185, #FB7185);
+    }
+
+    @media (max-width: 1023px) {
+      .content {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .content > :not([hidden]) ~ :not([hidden]) {
+        margin-left: 0;
+      }
+      .page_link {
+        width: calc(50% - 1rem);
+        max-width: 350px;
+        margin-bottom: 2rem;
+      }
+      .page_link:first-child {
+        margin-right: 2rem;
+      }
+      .page_link:last-child {
+        margin-bottom: 0rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .page_link {
+        width: 100%;
+        max-width: 500px;
+        background-color: transparent;
+        box-shadow: none;
+      }
+
+      .page_link:first-child {
+        margin-right: 0;
+      }
+
+      .page_link .icon,
+      .page_link h3,
+      .page_link p {
+        display: none;
+      }
+
+      .page_link .link {
+        border-radius: 9999px;
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="page_home">
+    <div class="top">
+      <h1 class="title">TỈNH BẮC GIANG</h1>
+      <h2 class="title-small">HỆ THỐNG THÔNG TIN CHUYÊN NGHÀNH NN&amp;PTNT</h2>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="page_link">
+          <span class="icon">
+            <img src="./upload/pig.png" alt="">
+          </span>
+          <h3>Chăn nuôi thú y</h3>
+          <p>Hệ thống thông tin và cơ sở dữ liệu về chăn nuôi tỉnh Bắc Giang</p>
+          <a href="/cnty" class="link">Đi đến CNTY</a>
+        </div>
+      
+        <div class="page_link">
+          <span class="icon">
+            <img src="./upload/vegatable.png" alt="">
+          </span>
+          <h3>An toàn thực phẩm</h3>
+          <p>Phần mềm quản lý về cấp giấy chứng nhận an toàn thực phẩm</p>
+          <a href="/attpsso" class="link">Đi đến ATTP</a>
+        </div>
+
+        <div class="page_link red">
+          <span class="icon">
+            <img src="./upload/person-red.png" alt="">
+          </span>
+          <h3>Quản lý tài khoản</h3>
+          <p>Quản lý tài khoản thông tin chuyên nghành NN&amp;PTNT</p>
+          <a href="/IdentityServerUM" class="link">Đi đến QLTK</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body></html>
